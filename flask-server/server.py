@@ -3,7 +3,7 @@ import json
 import sys
 from random import randint
 
-app = Flask(__name__, static_folder="../client/build/static", template_folder="../client/build/")
+app = Flask(__name__, static_folder="./build/static", template_folder="./build/")
 
 class DataStore():
     failure_rate = 0
